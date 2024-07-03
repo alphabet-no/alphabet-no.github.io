@@ -108,3 +108,8 @@ body {
     font-family: 'Helvetica Neue Thin';
     font-weight: 200; /* Ensure list items are thin weight */
 }
+
+a {
+    color: black;
+    text-decoration: none;
+}
