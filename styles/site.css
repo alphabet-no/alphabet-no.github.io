@@ -56,7 +56,7 @@ body {
     margin: 0px 0; /* Reduce margin between list items */
     padding: 0px 0; /* Reduce padding of list items */
     cursor: pointer;
-    font-size: 13px; /* Add this line to change the font size */
+    font-size: 18px; /* Add this line to change the font size */
     font-family: 'Helvetica Neue Thin';
     font-weight: 200; /* Ensure list items are thin weight */
 }
@@ -97,6 +97,7 @@ body {
 .right-sidebar ul {
     list-style-type: none;
     padding: 0;
+    font-size: 18px;
     padding-right: 20px; /* Push lists further to the right */
     margin-bottom: 10px; /* Adjust space between ul elements */
 }
