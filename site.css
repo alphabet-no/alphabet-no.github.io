@@ -1,0 +1,112 @@
+@font-face {
+    font-family: 'Helvetica Neue Bold';
+    src: local('Helvetica Neue Bold'), local('HelveticaNeue-Bold'),
+         url('path-to-font-file/HelveticaNeue-Bold.woff2') format('woff2'),
+         url('path-to-font-file/HelveticaNeue-Bold.woff') format('woff');
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Helvetica Neue Thin';
+    src: local('Helvetica Neue Thin'), local('HelveticaNeue-Thin'),
+         url('path-to-font-file/HelveticaNeue-Thin.woff2') format('woff2'),
+         url('path-to-font-file/HelveticaNeue-Thin.woff') format('woff');
+    font-weight: 200;
+}
+
+body {
+    margin: 0;
+    font-family: 'Helvetica Neue Thin', Arial, sans-serif;
+    color: #000;
+    overflow-x: hidden; /* Prevent horizontal scrolling */
+    font-weight: 200; /* Make sure everything else is thin weight */
+    background-color: #fff; /* Ensure site background is white */
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    width: 25%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    overflow-y: auto;
+    background-color: #fff;
+}
+
+.sidebar h1 {
+    font-size: 18px;
+    font-family: 'Helvetica Neue Bold';
+    font-weight: bold; /* Make P.E.O.P.L.E. bold */
+    color: #fff; /* White font color */
+    background-color: #000; /* Black background color */
+    padding: 10px; /* Add some padding for better appearance */
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    padding-left: 40px; /* Push lists to the right */
+    margin-bottom: 50px; /* Adjust space between ul elements */
+}
+
+.sidebar ul li {
+    margin: 0px 0; /* Reduce margin between list items */
+    padding: 0px 0; /* Reduce padding of list items */
+    cursor: pointer;
+    font-size: 13px; /* Add this line to change the font size */
+    font-family: 'Helvetica Neue Thin';
+    font-weight: 200; /* Ensure list items are thin weight */
+}
+
+.main-content-container {
+    width: 50%;
+    margin-left: 25%;
+    overflow-y: scroll;
+    padding: 20px;
+    background-color: #fff;
+    position: relative;
+}
+
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-content img {
+    max-width: 100%;
+    height: auto;
+}
+
+.right-sidebar {
+    width: 25%;
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: auto;
+    background-color: #fff;
+    text-align: right; /* Align text to the right */
+}
+
+.right-sidebar ul {
+    list-style-type: none;
+    padding: 0;
+    padding-right: 20px; /* Push lists further to the right */
+    margin-bottom: 10px; /* Adjust space between ul elements */
+}
+
+.right-sidebar ul li {
+    margin: 2px 0; /* Reduce margin between list items */
+    padding: 2px 0; /* Reduce padding of list items */
+    cursor: pointer;
+    font-family: 'Helvetica Neue Thin';
+    font-weight: 200; /* Ensure list items are thin weight */
+}
