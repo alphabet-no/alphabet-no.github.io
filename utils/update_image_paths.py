@@ -1,7 +1,7 @@
 import json
 import os
 
-assets = './assets/'
+assets = '../assets/'
 image_paths_json = './image_paths.json'
 
 image_paths = ["./assets/"+file for file in os.listdir(assets) if file.endswith(".png")]
