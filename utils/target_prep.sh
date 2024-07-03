@@ -2,7 +2,7 @@
 # This script should be used to format images for a fresh labeling run.
 # This will remove any existing txt files in this folder.
 
-folder_path="./assets/"
+folder_path="../assets/"
 
 # Navigate to the folder containing the images
 cd "$folder_path" || exit
