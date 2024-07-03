@@ -11,22 +11,22 @@
         <div class="sidebar">
             <h1>P.E.O.P.L.E.</h1>
             <ul>
-                <li>कला</li>
-                <li>社会</li>
+                <li><a href="#" id="link-1">कला</a></li>
+                <li><a href="#" id="link-2">社会</a></li>
             </ul>
             <ul>
-                <li>Technologia</li>
-                <li>ゆめ</li>
-                <li>जीवन</li>
-                <li>tiempo</li>
-                <li>philosophia</li>
-                <li>SELF</li>
+                <li><a href="#" id="link-3">Technologia</a></li>
+                <li><a href="#" id="link-4">ゆめ</a></li>
+                <li><a href="#" id="link-5">जीवन</a></li>
+                <li><a href="#" id="link-6">tiempo</a></li>
+                <li><a href="#" id="link-7">philosophia</a></li>
+                <li><a href="#" id="link-8">SELF</a></li>
             </ul>
             <ul>
-                <li>fiende</li>
-                <li>πληγή</li>
-                <li>écrire</li>
-                <li>wêreld</li>
+                <li><a href="#" id="link-9">fiende</a></li>
+                <li><a href="#" id="link-10">πληγή</a></li>
+                <li><a href="#" id="link-11">écrire</a></li>
+                <li><a href="#" id="link-12">wêreld</a></li>
             </ul>
         </div>
         <div class="main-content-container">
@@ -39,11 +39,39 @@
         </div>
         <div class="right-sidebar">
             <ul class="bottom-links">
-                <li>친구</li>
-                <li>miłość</li>
-                <li>žmogus</li>
+                <li><a href="#" id="link-13">친구</a></li>
+                <li><a href="#" id="link-14">miłość</a></li>
+                <li><a href="#" id="link-15">žmogus</a></li>
             </ul>
         </div>
     </div>
+    <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            const imagesMap = {
+                "link-1": ["link1"],
+                "link-2": ["link2"],
+                "link-3": ["link3"],
+                "link-4": ["link4"],
+                "link-5": ["link5"],
+                "link-6": ["link6"],
+                "link-7": ["link7"],
+                "link-8": ["link8"],
+                "link-9": ["link9"],
+                "link-10": ["link10"],
+                "link-11": ["link11"],
+                "link-12": ["link12"],
+                "link-13": ["link13"],
+                "link-14": ["link14"],
+                "link-15": ["link15"],
+            };
+
+            const links = document.querySelectorAll(".sidebar a, .right-sidebar a");
+
+            links.forEach(link => {
+                console.log(link)
+            })
+
+        })
+    </script>
 </body>
 </html>
