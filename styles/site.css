@@ -140,7 +140,7 @@ a {
     animation: scroll 1000s linear infinite;
 }
 .banner-content img {
-    height: 250px; /* Adjust the height as needed */
+    height: 150px; /* Adjust the height as needed */
     margin-right: 10px;
 }
 @keyframes scroll {
