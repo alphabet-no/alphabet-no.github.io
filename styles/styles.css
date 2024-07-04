@@ -23,10 +23,11 @@ body {
 
 .container {
     display: flex;
+    flex-direction: row;
     height: 100vh;
 }
 
-.sidebar {
+.left-sidebar {
     width: 25%;
     padding: 20px;
     position: fixed;
@@ -36,7 +37,7 @@ body {
     background-color: #fff;
 }
 
-.sidebar h1 {
+.left-sidebar h1 {
     font-size: 18px;
     font-family: 'Helvetica Neue Bold';
     font-weight: bold; /* Make P.E.O.P.L.E. bold */
@@ -45,14 +46,14 @@ body {
     padding: 10px; /* Add some padding for better appearance */
 }
 
-.sidebar ul {
+.left-sidebar ul {
     list-style-type: none;
     padding: 0;
     padding-left: 40px; /* Push lists to the right */
     margin-bottom: 50px; /* Adjust space between ul elements */
 }
 
-.sidebar ul li {
+.left-sidebar ul li {
     margin: 0px 0; /* Reduce margin between list items */
     padding: 0px 0; /* Reduce padding of list items */
     cursor: pointer;
@@ -118,6 +119,31 @@ body {
     position: fixed;  /* Fix the position of the image */
     bottom: 10px;     /* Position it 10px from the bottom of the viewport */
     right: 15px;      /* Align it to the right side of the right sidebar */
+}
+
+@media (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .left-sidebar {
+        width: 90%;
+        padding: 10px;
+        order: 1;
+    }
+
+    .main-content-container {
+        order: 2;
+        display: none;
+    }
+
+    .right-sidebar {
+        width: 100%;
+        padding: 10px;
+        order: 3;
+        display: none;
+    }
+
 }
 
 a {
