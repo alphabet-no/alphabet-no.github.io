@@ -136,10 +136,10 @@ a {
 }
 .banner-content {
     display: inline-block;
-    animation: scroll 10s linear infinite;
+    animation: scroll 50s linear infinite;
 }
 .banner-content img {
-    height: 50px; /* Adjust the height as needed */
+    height: 250px; /* Adjust the height as needed */
     margin-right: 10px;
 }
 @keyframes scroll {
