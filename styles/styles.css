@@ -14,7 +14,7 @@
 
 body {
     margin: 0;
-    font-family: 'Helvetica Neue Thin', Arial, sans-serif;
+    font-family: 'Helvetica Neue Bold';
     color: #000;
     overflow-x: hidden; /* Prevent horizontal scrolling */
     font-weight: 200; /* Make sure everything else is thin weight */
@@ -25,6 +25,26 @@ body {
     display: flex;
     flex-direction: row;
     height: 100vh;
+    background: transparent;
+}
+
+.background {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+}
+
+.background::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+}
+
+.background img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .left-sidebar {
@@ -34,7 +54,8 @@ body {
     top: 0;
     bottom: 0;
     overflow-y: auto;
-    background-color: #fff;
+    pointer-events: none;
+    /*background-color: #fff;*/
 }
 
 .left-sidebar h1 {
@@ -58,7 +79,7 @@ body {
     padding: 0px 0; /* Reduce padding of list items */
     cursor: pointer;
     font-size: 18px; /* Add this line to change the font size */
-    font-family: 'Helvetica Neue Thin';
+    font-family: 'Helvetica Neue Bold';
     font-weight: 200; /* Ensure list items are thin weight */
 }
 
@@ -67,7 +88,7 @@ body {
     margin-left: 25%;
     overflow-y: scroll;
     padding: 20px;
-    background-color: #fff;
+    /*background-color: #fff;*/
     position: relative;
 }
 
@@ -91,10 +112,11 @@ body {
     bottom: 0;
     right: 0;
     overflow-y: auto;
-    background-color: #fff;
+    /*background-color: #fff;*/
     text-align: right; /* Align text to the right */
     display: flex;
     flex-direction: column;
+    pointer-events: none;
 }
 
 .right-sidebar ul {
@@ -109,7 +131,7 @@ body {
     margin: 2px 0; /* Reduce margin between list items */
     padding: 2px 0; /* Reduce padding of list items */
     cursor: pointer;
-    font-family: 'Helvetica Neue Thin';
+    font-family: 'Helvetica Neue Bold';
     font-weight: 200; /* Ensure list items are thin weight */
 }
 
