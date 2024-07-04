@@ -92,6 +92,8 @@ body {
     overflow-y: auto;
     background-color: #fff;
     text-align: right; /* Align text to the right */
+    display: flex;
+    flex-direction: column;
 }
 
 .right-sidebar ul {
@@ -108,6 +110,14 @@ body {
     cursor: pointer;
     font-family: 'Helvetica Neue Thin';
     font-weight: 200; /* Ensure list items are thin weight */
+}
+
+.right-sidebar img {
+    max-width: 20%;
+    border-radius: 4px;
+    position: fixed;  /* Fix the position of the image */
+    bottom: 10px;     /* Position it 10px from the bottom of the viewport */
+    right: 15px;      /* Align it to the right side of the right sidebar */
 }
 
 a {
