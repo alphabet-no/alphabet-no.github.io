@@ -83,12 +83,12 @@ body {
     font-weight: 200; /* Ensure list items are thin weight */
 }
 
+/* So far we probably are not going to use this main content container
 .main-content-container {
     width: 50%;
     margin-left: 25%;
     overflow-y: scroll;
     padding: 20px;
-    /*background-color: #fff;*/
     position: relative;
 }
 
@@ -103,6 +103,7 @@ body {
     max-width: 100%;
     height: auto;
 }
+*/
 
 .right-sidebar {
     width: 25%;
