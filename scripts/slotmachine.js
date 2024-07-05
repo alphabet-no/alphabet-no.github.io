@@ -23,28 +23,15 @@ function typeText(element, text, delay) {
 }
 
 $(document).ready(function() {
-    const textsToType = [
-        "i love buying the swedish 'new feel' slim zyns it feels like im importing rare ntsc-j nintendo wii exclusives in 2006",
-        "orchestrating vast, intricate schemes across time and space is undeniably appealing",
-        "immediate off the cuff answers",
-        "When you look at it you are alive and spending your life looking",
-        "agi content is overexposed and boring unfortunately",
-        "No pressure on that bitcoin stuff but if you don't 10x your net worth 3 times by 2030 you'll be forced to sell your brain's excess compute power to an AI company that uses it to make YouTube videos convincing your children to transition",
-        "Neo-China arrives from the future",
-        "Metrophage: an interactively escalating parasitic replicator, sophisticating itself through nonlinear involvement with technocapitalist immunocrash",
-        "don't mess with me",
-        "If reading this doesn't make you feel concerned or trigger a delightful epiphany, even if you don't know the context, then you are still quite far from enlightenment",
-        "AGI can help the Sex Worker community by optimising the pricing for custom video content - acting, as it were, as a Pay-per-Clip maximi—"
-    ];
-
     const typingDelay = 120; // Delay in milliseconds
 
     shuffle(images);
-
+    shuffle(texts);
     const imageList = $("#imageList");
     imageList.empty();
 
     const selectedImages = images.slice(0, 10);
+    const selectedTexts = texts.slice(0,10);
     selectedImages.forEach(function(src, index) {
         const listItem = $('<li></li>');
         const imgElement = $('<img>').attr('src', src).attr('alt', 'Img').addClass('small-img');
@@ -56,8 +43,8 @@ $(document).ready(function() {
         captionElement.css('visibility', 'visible');
 
         // Type the text for the caption
-        if (index < textsToType.length) {
-            typeText(captionElement[0], textsToType[index], typingDelay);
+        if (index < selectedTexts.length) {
+            typeText(captionElement[0], selectedTexts[index], typingDelay);
         }
     });
 });

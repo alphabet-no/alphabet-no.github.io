@@ -259,7 +259,7 @@ const images = [
 	'./assets/img/40.png',
 ];
 
-const textsToType = [
+const texts = [
     "i am larger than life i am absolutely massive",
 	"' Do people like Schirbarth dream of glass buildings because they are the expression of a new poverty? ** 'Erase the traces!' ** 'Now this has been achieved by Schirbarth with his glass and Bauhaus with its steel",
 	"wikipedia",
