@@ -56,7 +56,7 @@ body {
     text-align: center;
 }
 .captions {
-    font-size: 38px;
+    font-size: 28px;
     white-space: pre-wrap;
     visibility: hidden; /* Initially hide the caption */
 }
