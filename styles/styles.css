@@ -69,6 +69,8 @@ body {
     bottom: 0;
     overflow-y: auto;
     pointer-events: none;
+    -ms-overflow-style: none;
+    scrollbar-width: none; 
 }
 
 .left-sidebar h1 {
