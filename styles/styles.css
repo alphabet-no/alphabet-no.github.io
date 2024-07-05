@@ -42,7 +42,6 @@ body {
 }
 .background img {
     display: block;
-    margin: 10px auto;
     width: 100%;
     height: auto;
     display: block;
@@ -69,7 +68,6 @@ body {
     bottom: 0;
     overflow-y: auto;
     pointer-events: none;
-    /*background-color: #fff;*/
 }
 
 .left-sidebar h1 {

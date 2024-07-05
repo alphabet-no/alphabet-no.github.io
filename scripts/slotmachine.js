@@ -38,7 +38,7 @@ $(document).ready(function() {
         imageList.append(listItem);
 
         const textToType = "This is an example text that will appear one character at a time.";
-        const typingDelay = 100; // Delay in milliseconds
+        const typingDelay = 120; // Delay in milliseconds
 
         const observer = new IntersectionObserver((entries, observer) => {
             entries.forEach(entry => {
@@ -57,10 +57,10 @@ $(document).ready(function() {
 
         observer.observe(imgElement[0]);
     });
-
+/*
     $(".background img").each(function() {
         $(this).slideDown("slow");
         $(this).css("visibility", 'visible');
         $(this).css("border", '1px solid #4F4F4F');
-    });
+    });*/
 });
