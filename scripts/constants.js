@@ -1821,8 +1821,6 @@ const texts = [
 	" i think the earth is flat because i looked out the window of an airplane and didn't see any curvature",
 	" Since Crypt­sex is precisely identical to the infections it transmits, counted in body-shifting vectors, its libidinal composition is marked both by a palaeo embryonic or oes trogenetic non-gendered femininity and a lateral haemometallic influenzoid virulence",
 	" The heat of air, traffic and people",
-	"The investment-income class advantages itself of commodity dynamics, but only by conforming to the axiomatic of neutral profit maximization; facilitating the dehumanization of wealth and the sidelining of non-productive consumption",
-	"",
 	" It guides you",
 	"The transcendent evaluation of an infection presup­",
 	"' Two definitions of historiography: History 01: What exactly happened in the past in the entirety of human experience",
