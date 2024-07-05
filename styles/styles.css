@@ -35,6 +35,7 @@ body {
     overflow-y: scroll; /* Enable vertical scrolling */
     -ms-overflow-style: none;  /* IE and Edge */
     scrollbar-width: none;  /* Firefox */
+    overflow-x: hidden;
 }
 
 .background::-webkit-scrollbar {
