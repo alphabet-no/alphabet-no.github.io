@@ -232,6 +232,41 @@ a {
     margin-bottom: 20px;
 }
 
+.resume {
+    line-height: 1.6;
+    margin: 20px;
+}
+
+.resume h1, h2, h3 {
+    color: #333;
+}
+.resume p {
+    margin-bottom: 10px;
+}
+.resume ul {
+    margin-bottom: 20px;
+    padding-left: 20px;
+}
+.contact-info {
+    line-height: 1.6;
+    margin: 20px;
+    margin-bottom: 20px;
+}
+.section-title {
+    line-height: 1.6;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.job-title {
+    margin: 20px;
+    font-weight: bold;
+}
+.job-details {
+    margin: 20px;
+    margin-bottom: 10px;
+}
+
 @keyframes scroll {
     from {
         transform: translateX(0%);
