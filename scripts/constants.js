@@ -1830,7 +1830,6 @@ const texts = [
 	" Art is a commodity",
 	"No quarter for the enemies of civilization",
 	"' [",
-	" Yet, at least 'up' here, Vauung still confuses itself with me, with ruins and tatters",
 	" Think about it, an all knowing machiene God with the will for chaos would very easily understand our minds as computational interfaces, and could effortlessly program some sort of sound or visual input that effectively bricks our system",
 	" ]he real danger comes from elsewhere",
 	" The Thing from Outer-Space, Celestial Predator, State­Historical Catastrophe is completely realized at the origin, unutterably ancient, perfected destiny as an act of total seizure, demographically self-amplifying atrocity in-process",
