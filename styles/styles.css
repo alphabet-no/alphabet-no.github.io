@@ -40,11 +40,25 @@ body {
 .background::-webkit-scrollbar {
     display: none; /* Chrome, Safari, and Opera */
 }
-
 .background img {
+    display: block;
+    margin: 10px auto;
     width: 100%;
     height: auto;
     display: block;
+}
+.background ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+.background li {
+    margin: 0;
+    text-align: center;
+}
+.caption {
+    font-size: 20px;
+    white-space: pre-wrap;
+    visibility: hidden; /* Initially hide the caption */
 }
 
 .left-sidebar {
