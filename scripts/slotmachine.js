@@ -24,7 +24,7 @@ function typeText(element, text, delay) {
 
 $(document).ready(function() {
     const typingDelay = 120; // Delay in milliseconds
-
+    
     shuffle(images);
     shuffle(texts);
     const imageList = $("#imageList");
