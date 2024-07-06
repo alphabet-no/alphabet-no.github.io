@@ -698,4 +698,5 @@ const texts = [
 	"There is no such thing as free speech",
 	"the people, for the people; but the people are   people.",
 	"“My identity was totally eviscerated,” she says. “I was really confused about what my worth was.”",
+	"悶聲大發財",
 ];
