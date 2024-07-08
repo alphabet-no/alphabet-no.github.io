@@ -136,23 +136,6 @@ body {
     right: 15px;
 }
 
-@media (max-width: 1000px) {
-    .container {
-        flex-direction: column;
-        height: auto;
-    }
-    .left-sidebar {
-        width: 50%;
-        padding: 10px;
-        order: 1;
-    }
-
-    .right-sidebar {
-        width: 50%;
-        padding: 10px;
-        order: 2;
-    }
-}
 
 a {
     color: black;
@@ -180,6 +163,7 @@ a {
 }
 
 .one-page {
+    width: 50%;
     line-height: 1.6;
     margin: 20px;
 }
@@ -207,6 +191,7 @@ a {
 .resume {
     line-height: 1.6;
     margin: 20px;
+    width: 50%;
 }
 
 .resume h1, h2, h3 {
@@ -237,6 +222,38 @@ a {
 .job-details {
     margin: 20px;
     margin-bottom: 10px;
+}
+
+@media (max-width: 1000px) {
+    .container {
+        flex-direction: column;
+        height: auto;
+    }
+    .left-sidebar {
+        width: 50%;
+        padding: 10px;
+        order: 1;
+    }
+
+    .right-sidebar {
+        width: 50%;
+        padding: 10px;
+        order: 2;
+    }
+
+    .one-page {
+        width: 92%;
+        line-height: 1.6;
+        margin: 20px;
+        align-content: center;
+    }
+    
+    .resume {
+        width: 92%;
+        line-height: 1.6;
+        margin: 20px;
+        align-content: center;
+    }
 }
 
 @keyframes scroll {
