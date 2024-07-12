@@ -8,7 +8,7 @@ DIRECTORY=$1
 count=1
 
 # Loop through each image file in the folder
-for file in "$DIRECTORY"/*.{png,PNG,svg,SVG}; do
+for file in "$DIRECTORY"/*.{png,PNG,svg,SVG,jpg,JPG,jpeg,JPEG}; do
     # Check if the file is a regular file
     if [ -f "$file" ]; then
         mv "$file" "$DIRECTORY"/"$count.png"
